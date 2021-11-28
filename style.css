@@ -1,0 +1,263 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+  body{
+    font-family: "Amatic SC", sans-serif ;
+    text-transform: uppercase;
+  }
+
+  
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+ .navbar1{
+position: sticky;
+top: 0;
+display: flex;
+background-color: #333;
+ color: #fff;
+padding: 1rem ;
+justify-content: space-between;
+z-index:  1;
+}
+
+  .navbar1 ul{
+    display: flex; align-items: center;list-style-type: none;
+    justify-content: space-between;
+  }
+  .navbar1 ul li a{
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.navbar1 ul li a:hover{
+  background: #ddd;
+  color: #aaa;
+}
+  header{
+    background: url('./pexels-narda-yescas-1566837.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+
+  }
+
+  .showcase{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+
+text-align: center;
+position: absolute;
+  top: 3.75rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2);
+  }
+  .letme{
+    color: #fff;
+    background-color: black;
+    display: inline-block;
+    border: none;
+    border-radius: 0.3125rem;
+  }
+  .showcase span{
+    font-size: 6.25rem;
+text-align:center;
+    padding: 1.875rem;
+ font-weight: lighter;
+ margin-top: 3%;
+
+  }
+
+  .letme{
+    font-size: 2rem;
+    padding: 1.25rem;
+    margin-top: 4%;
+     }
+     .open{
+       position: absolute;
+       left: 0.625rem;
+       bottom: 0.625rem;
+       background-color: #000;
+       font-size: 1.5rem;
+       padding: 0.3125rem;
+     }
+     main{
+     
+       background-color: #000;
+       color: #fff;
+       padding: 4rem 1rem;
+       margin-bottom: 0;
+      
+     }
+     #naslov,#naslov1,#naslov2,#naslov3,#naslov-pasta,#naslov-starters{
+       color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 6.25rem;
+    margin-bottom: 2.5rem;
+    font-size: 4rem;
+    }
+#menu1{
+  margin:auto 0.25rem;
+ background-color: #fff;
+ padding: 2rem 1rem;
+ font-size: 2.25rem;
+
+}
+.meal,.cijena,.sastojci{
+  color: #000;
+  font-size: 2rem;
+
+}
+main nav{
+  display:flex;
+  justify-content: center;
+font-size: 2.25rem;
+margin: auto 0.25rem;
+}
+main nav a{
+  padding: 0.75rem 1.5rem;
+  flex:1;
+  text-align: center;
+  background-color: gray;
+  
+}
+.pizza,main nav a:hover{
+  background-color: red;
+}
+
+.jela{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.625rem 0.625rem;
+}
+
+.sastojci{
+  margin: 2.25rem 0.625rem;
+  word-spacing: 0.3125rem;
+}
+.cijena{
+  background-color: gray;
+  color: #fff;
+  padding: 0;
+  border: none;
+  border-radius: 0.3125rem;
+}
+.hot{
+  background-color: red;
+  color: #fff;
+  padding: 0 8px;
+  font-weight: lighter;
+  border: none;
+  border-radius: 0.3125rem;
+}
+.menu3{
+  margin-bottom: 3.125rem;
+
+}
+#about{
+  position: relative;
+  background-color: darkmagenta;
+  color: #fff;
+  padding: 4rem 0;
+ }
+.story{
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  
+}
+.chef {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+.italiano{
+  display: flex;justify-content: space-between;
+}
+.strana{
+  display: flex;flex-direction: column;justify-content: space-between;
+}
+.italiano img{
+  border: none;
+  border-radius: 50%;
+}
+.margina{
+  margin: auto 1rem;
+}
+.margina+img{
+  height:37.5rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+.opening{
+  font-size: 2.25rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+}
+.radno-vrijeme{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  display: flex;flex-wrap: wrap;justify-content: space-between;
+ 
+}
+.radno-vrijeme p{
+flex-basis: 50%;
+  margin: 1.5rem 0;
+ }
+ .mapa{
+   height:35rem;
+   width: 100%;
+
+}
+.image{
+  padding: 0;
+}
+
+
+ .contact{
+   background-color: rgb(33, 99, 160);
+   color: #fff;
+   padding: 2rem 1rem 0;
+   }
+ #contact p{
+   margin: 1.5rem 0;
+ }
+ form{
+   font-size: 1.5rem;
+  display: flex;flex-direction:column;align-items: center;
+  font-family: "Amatic",sans-serif;
+  }
+ form input{
+   font-size: 1.5rem;
+   padding: 1rem 0.5rem;
+   width: 50%;
+   margin-top: 0.5rem;margin-bottom: 0.5rem;
+   font-family: "Amatic",sans-serif;
+ }
+ button{
+   padding: 0.5rem 1rem ; margin-bottom: 3rem;margin-top: 0.5rem;
+   width: 50%;
+   font-size: 1.5rem;font-family: "Amatic",sans-serif;
+}
+#contact{
+  display: flex;flex-direction: column;
+}
+
+.sivo{
+  background: gray;
+  color: #222;
+  padding: 0 0.5rem;
+  font-weight: lighter;
+  border:none;border-radius: 0.3125rem;
+}
